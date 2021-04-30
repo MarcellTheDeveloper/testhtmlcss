@@ -1,0 +1,97 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  background-color: #fbb03b;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  .menuIcon {
+    font-size: 76px;
+    color: white;
+    background-color: #138073;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 30px;
+  }
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .section1Title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @media only screen and (max-width: 750px) {
+      justify-content: flex-end !important;
+      padding-right: 10%;
+    }
+    h3 {
+      font-size: 32px;
+      color: #138073;
+    }
+  }
+  .normalInput {
+    width: 600px;
+    font-size: 18px;
+    padding: 25px 25px 25px 35px;
+    margin: 20px;
+    background-color: white;
+    border: black solid 1px;
+    color: #39b69f;
+    @media only screen and (max-width: 750px) {
+      width: 500px;
+    }
+    @media only screen and (max-width: 630px) {
+      width: 400px;
+    }
+    @media only screen and (max-width: 500px) {
+      width: 300px;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 200px;
+    }
+  }
+  .sectionChecbox {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+
+    input {
+      transform: scale(2);
+      margin-right: 30px;
+    }
+    p {
+      font-size: 22px;
+      color: #39b69f;
+      a {
+        color: #39b69f;
+      }
+    }
+  }
+
+  button {
+    margin-top: 70px;
+    padding: 35px;
+    background-color: #39b69f;
+    color: white;
+    letter-spacing: 5px;
+    width: 350px;
+    border: white 1px solid;
+    @media only screen and (max-width: 400px) {
+      width: 250px;
+    }
+  }
+}
+
+::placeholder {
+  color: #39b69f;
+  letter-spacing: 2px;
+}

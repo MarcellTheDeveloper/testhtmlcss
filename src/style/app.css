@@ -1,0 +1,161 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: #fbb03b;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navBar .menuIcon {
+  font-size: 76px;
+  color: white;
+  background-color: #138073;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .section1Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  .section1 .section1Title {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    padding-right: 10%;
+  }
+}
+
+.section1 .section1Title h3 {
+  font-size: 32px;
+  color: #138073;
+}
+
+.section1 .normalInput {
+  width: 600px;
+  font-size: 18px;
+  padding: 25px 25px 25px 35px;
+  margin: 20px;
+  background-color: white;
+  border: black solid 1px;
+  color: #39b69f;
+}
+
+@media only screen and (max-width: 750px) {
+  .section1 .normalInput {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .section1 .normalInput {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section1 .normalInput {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section1 .normalInput {
+    width: 200px;
+  }
+}
+
+.section1 .sectionChecbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 20px 0px 40px;
+}
+
+.section1 .sectionChecbox input {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin-right: 30px;
+}
+
+.section1 .sectionChecbox p {
+  font-size: 22px;
+  color: #39b69f;
+}
+
+.section1 .sectionChecbox p a {
+  color: #39b69f;
+}
+
+.section1 button {
+  margin-top: 70px;
+  padding: 35px;
+  background-color: #39b69f;
+  color: white;
+  letter-spacing: 5px;
+  width: 350px;
+  border: white 1px solid;
+}
+
+@media only screen and (max-width: 400px) {
+  .section1 button {
+    width: 250px;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #39b69f;
+  letter-spacing: 2px;
+}
+
+:-ms-input-placeholder {
+  color: #39b69f;
+  letter-spacing: 2px;
+}
+
+::-ms-input-placeholder {
+  color: #39b69f;
+  letter-spacing: 2px;
+}
+
+::placeholder {
+  color: #39b69f;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=app.css.map */
